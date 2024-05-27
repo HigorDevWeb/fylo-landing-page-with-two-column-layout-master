@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+.logo {
+  padding: 20px 20px 20px 20px;
+}
+.buttonFeat {
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  position: absolute;
+  bottom: 53rem;
+  left: 85rem;
+  cursor: pointer;
+}
+.buttonTeam {
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  position: absolute;
+  bottom: 53rem;
+  left: 93rem;
+  cursor: pointer;
+}
+
+.buttonSign {
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  position: absolute;
+  bottom: 53rem;
+  left: 100rem;
+  cursor: pointer;
+}
+
+.ilustrationImg {
+  max-width: 650px;
+  margin-left: 67rem;
+  position: absolute;
+  top: 10rem;
+}
+.mainContainer h1 {
+  padding: 10px 10px 10px 10px;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+.mainContainer p {
+  padding: 10px 10px 10px 10px;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  color: #262535;
+}
+
+#email {
+  width: 290px;
+  height: 2.5rem;
+  margin-left: 11rem;
+  margin-top: 2rem;
+  padding: 10px 10px 10px 10px;
+}
+.buttonGetStarted {
+  width: 190px;
+  cursor: pointer;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  border-color: transparent;
+  height: 2.5rem;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+.buttonGetStarted:hover {
+  background-color: #6b9bff;
+}
+.bgCurve {
+  z-index: -1;
+  font-family: Arial, sans-serif;
+  color: white;
+  height: 90vh;
+  width: 250vh;
+  margin-top: 20rem;
+}
+.featuresContainer h2{
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: 60rem;
+  left: 20rem;
+  font-size: 2rem;
+}
+.featuresContainer p{
+  z-index: 1;
+  position: absolute;
+  top: 66rem;
+  left: 20rem;
+}
+.featuresContainer{
+  background-image: url('images/bg-curve-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 114px;
+  width: 100%;
+  margin: 0;
+  margin-top: 5%;
+  padding: 0;
+}
